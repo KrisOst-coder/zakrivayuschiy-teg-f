@@ -1,0 +1,3 @@
+2023.11.20 12:41:57 INFO  Started: Metals version 1.1.0 in folders '/Users/apple/Desktop/zakrivayuschiy-teg-f' for client Visual Studio Code 1.83.1.[0m
+2023.11.20 12:41:57 WARN  Build server is not auto-connectable.[0m
+2023.11.20 12:41:57 WARN  no build tool detected in workspace '/Users/apple/Desktop/zakrivayuschiy-teg-f'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
