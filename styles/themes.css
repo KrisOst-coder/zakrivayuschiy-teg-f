@@ -18,16 +18,21 @@
         linear-gradient(to bottom, #007f0c 0, #004306 100%);
     --shadow-empty-element-color: #000;
     --botton-difference: #00CC14;
+    --botton-difference-back: #000;
     --heart-contur-color: #00CC14;
     --core-color: #000;
     --main-body-color: #000;
+    --border-save-bottom: var(--botton-difference);
+    --botton-save-back: var(--botton-difference-back);
+    --save-before-back: var(--accent-color);
 }
 
 :root.theme-light {
     --background-color: #fff;
     --botton-difference: #fff;
     --botton-difference-back: #000;
-
+    --botton-save-back: #fff;
+    --save-before-back: #000;
     --accent-color: #000;
     --accent-font-weight: 400px;
     --font-weight: 400px;
@@ -40,4 +45,30 @@
     --heart-contur-color: #000;
     --core-color: #fff;
     --main-body-color: #fff;
+    --botton-difference: #fff;
+    --botton-difference-back: #000;
+    --border-save-bottom: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    .page {
+        --background-color: #000;
+        --accent-color: #00CC14;
+        --accent-font-weight: 400px;
+        --font-weight: 465px;
+        --font-weight-title: 785px;
+        --background-image: 
+            repeating-linear-gradient(to left, #000, rgb(0 0 0 / 0) 2px),
+            repeating-linear-gradient(to top, #000, rgb(0 0 0 / 0) 2px),
+            linear-gradient(to bottom, #007f0c 0, #004306 100%);
+        --shadow-empty-element-color: #000;
+        --botton-difference: #00CC14;
+        --botton-difference-back: #000;
+        --heart-contur-color: #00CC14;
+        --core-color: #000;
+        --main-body-color: #000;
+        --border-save-bottom: var(--botton-difference);
+        --botton-save-back: var(--botton-difference-back);
+        --save-before-back: var(--accent-color);
+    }
 }

@@ -12,3 +12,24 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+
+@keyframes scaling {
+    from {
+      transform: scale(1);
+    }
+  
+    to {
+      transform: scale(1.5);
+    }
+  }
+  
+  @keyframes sparks-on {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

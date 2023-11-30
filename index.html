@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name=”color-scheme” content=”light dark”>
+    <meta name=”color-scheme” content="light dark">
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
-    <link type="images" href="images/fav.svg" rel="svg" sizes="any" />
     <link type="images" href="images/fav.ico" rel="icon" sizes="any" />
-    <link type="images" href="images/mobile-icon.png" rel="apple-touch-icon" />
+    <link type="images/svg+xml" href="images/fav.svg" rel="icon"/>
+    <link type="images" href="images/mobile-icon.png" />
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="html">
+      <a class="html">
         &lt;/HTML&gt;
-      </h1>
-      <h2 class="header-title">закрывающий тег</h2>
+      </a>
+      <h1 class="header-title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -72,7 +72,7 @@
               </div>              
             </button>
             <button type="button" class="card__like-button">
-              <h3 class="button__text">Like</h3>
+              <span class="button__text">Like</span>
             </button>
           </span>
           </button>
@@ -101,7 +101,7 @@
               </div>              
             </button>
             <button type="button" class="card__like-button">
-              <h3 class="button__text">Like</h3>
+              <span class="button__text">Like</span>
             </button>
           </span>
           </span>
@@ -129,7 +129,7 @@
               </div>              
             </button>
             <button type="button" class="card__like-button">
-              <h3 class="button__text">Like</h3>
+              <span class="button__text">Like</span>
             </button>
           </span>
         </li>
@@ -156,7 +156,7 @@
               </div>              
             </button>
             <button type="button" class="card__like-button">
-              <h3 class="button__text">Like</h3>
+              <span class="button__text">Like</span>
             </button>
           </span>
         </li>
@@ -183,7 +183,7 @@
               </div>              
             </button>
             <button type="button" class="card__like-button">
-              <h3 class="button__text">Like</h3>
+              <span class="button__text">Like</span>
             </button>
           </span>
         </li>
@@ -210,7 +210,7 @@
               </div>              
             </button>
             <button type="button" class="card__like-button">
-              <h3 class="button__text">Like</h3>
+              <span class="button__text">Like</span>
             </button>
           </span>
         </li>
@@ -237,7 +237,7 @@
               </div>              
             </button>
             <button type="button" class="card__like-button">
-              <h3 class="button__text">Like</h3>
+              <span class="button__text">Like</span>
             </button>
           </span>
         </li>
@@ -264,7 +264,7 @@
               </div>              
             </button>
             <button type="button" class="card__like-button">
-              <h3 class="button__text">Like</h3>
+              <span class="button__text">Like</span>
             </button>
           </span>
         </li>  
@@ -275,28 +275,30 @@
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
         class="save__botton"
-        
       >
         <div class="floppy-icon botton-floop-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 21 21">
-            <path fill="var(--botton-difference)" d="M0 0h1.615v1.615H0zm0 1.615h1.615V3.23H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615V21H0zM17.77-.001v1.615h-1.615V-.001zM16.154 0v1.615h-1.615V0zm-1.615 0v1.615h-1.615V0zm-1.616 0v1.615h-1.615V0zm-1.615 0v1.615H9.693V0zM9.692 0v1.615H8.077V0zM8.077 0v1.615H6.462V0zM6.462 0v1.615H4.847V0zM4.846 0v1.615H3.231V0zM3.23.001v1.615H1.615V.001zm16.155 1.614V3.23H17.77V1.615zM4.846 3.231v1.615H3.231V3.231zm0-1.616V3.23H3.231V1.615zm0 3.231v1.615H3.231V4.846zm11.308-1.615v1.615h-1.615V3.231zm0-1.616V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zm-3.231-1.615v1.615h-1.615V3.231zm0-1.616V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zm3.231 1.615v1.615h-1.615V6.461zm-1.615 0v1.615h-1.615V6.461zm-1.616 0v1.615h-1.615V6.461zm-1.615 0v1.615H9.693V6.461zm-1.616 0v1.615H8.077V6.461zm-1.615 0v1.615H6.462V6.461zm-1.615 0v1.615H4.847V6.461zm-1.616 0v1.615H3.231V6.461zm12.924 4.846v1.615h-1.615v-1.615zm-1.616.001v1.615h-1.615v-1.615zm-1.615 0v1.615h-1.615v-1.615zm-1.616 0v1.615h-1.615v-1.615zm-1.615 0v1.615H9.693v-1.615zm-1.616 0v1.615H8.077v-1.615zm-1.615 0v1.615H6.462v-1.615zm-1.615 0v1.615H4.847v-1.615zm-1.616 0v1.615H3.231v-1.615zm12.924 1.614v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm12.924 1.615v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm12.924 1.614v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm0 1.615v1.615H3.231v-1.615zm12.924-.001v1.615h-1.615v-1.615zm1.615 1.617V21H17.77v-1.615zm-1.615-.001v1.615h-1.615v-1.615zm-1.616.001V21h-1.615v-1.615zm-1.615 0V21h-1.615v-1.615zm-1.616 0V21h-1.615v-1.615zm-1.615 0V21H9.693v-1.615zm-1.616 0V21H8.077v-1.615zm-1.615 0V21H6.462v-1.615zm-1.615 0V21H4.847v-1.615zm-1.616 0V21H3.231v-1.615zm-1.616.001v1.615H1.615v-1.615zM21 21h-1.615v-1.615H21zm0-1.615h-1.615V17.77H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615V9.693H21zm0-1.616h-1.615V8.077H21zm0-1.615h-1.615V6.462H21zm0-1.616h-1.615V4.846H21zm0-1.615h-1.615V3.231H21z"/>
+            <use href="./svg/floppy.svg#button-floppy" fill="var(--botton-difference)"></use>
           </svg>
         </div>
-        <h3 class="save-text">Сохранить на память</h3>
+        <span class="save-text">Сохранить на память</span>
       </button>
       
       <dialog id="dialog-id">
-        <opened class="opened-dialog">
+        <div class="opened-dialog">
           <div class="floppy-icon dialog-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="none" viewBox="0 0 21 21">
-              <path fill="var(--botton-difference)" d="M0 0h1.615v1.615H0zm0 1.615h1.615V3.23H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615V21H0zM17.77-.001v1.615h-1.615V-.001zM16.154 0v1.615h-1.615V0zm-1.615 0v1.615h-1.615V0zm-1.616 0v1.615h-1.615V0zm-1.615 0v1.615H9.693V0zM9.692 0v1.615H8.077V0zM8.077 0v1.615H6.462V0zM6.462 0v1.615H4.847V0zM4.846 0v1.615H3.231V0zM3.23.001v1.615H1.615V.001zm16.155 1.614V3.23H17.77V1.615zM4.846 3.231v1.615H3.231V3.231zm0-1.616V3.23H3.231V1.615zm0 3.231v1.615H3.231V4.846zm11.308-1.615v1.615h-1.615V3.231zm0-1.616V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zm-3.231-1.615v1.615h-1.615V3.231zm0-1.616V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zm3.231 1.615v1.615h-1.615V6.461zm-1.615 0v1.615h-1.615V6.461zm-1.616 0v1.615h-1.615V6.461zm-1.615 0v1.615H9.693V6.461zm-1.616 0v1.615H8.077V6.461zm-1.615 0v1.615H6.462V6.461zm-1.615 0v1.615H4.847V6.461zm-1.616 0v1.615H3.231V6.461zm12.924 4.846v1.615h-1.615v-1.615zm-1.616.001v1.615h-1.615v-1.615zm-1.615 0v1.615h-1.615v-1.615zm-1.616 0v1.615h-1.615v-1.615zm-1.615 0v1.615H9.693v-1.615zm-1.616 0v1.615H8.077v-1.615zm-1.615 0v1.615H6.462v-1.615zm-1.615 0v1.615H4.847v-1.615zm-1.616 0v1.615H3.231v-1.615zm12.924 1.614v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm12.924 1.615v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm12.924 1.614v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm0 1.615v1.615H3.231v-1.615zm12.924-.001v1.615h-1.615v-1.615zm1.615 1.617V21H17.77v-1.615zm-1.615-.001v1.615h-1.615v-1.615zm-1.616.001V21h-1.615v-1.615zm-1.615 0V21h-1.615v-1.615zm-1.616 0V21h-1.615v-1.615zm-1.615 0V21H9.693v-1.615zm-1.616 0V21H8.077v-1.615zm-1.615 0V21H6.462v-1.615zm-1.615 0V21H4.847v-1.615zm-1.616 0V21H3.231v-1.615zm-1.616.001v1.615H1.615v-1.615zM21 21h-1.615v-1.615H21zm0-1.615h-1.615V17.77H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615V9.693H21zm0-1.616h-1.615V8.077H21zm0-1.615h-1.615V6.462H21zm0-1.616h-1.615V4.846H21zm0-1.615h-1.615V3.231H21z"/>
+              <use href="./svg/floppy.svg#button-floppy" fill="var(--accent-color)"></use>            
             </svg>
           </div>
-          <h2 class="dialog-text">Вставьте<br>дискету, чтобы<br>продолжить</h2>
+          <h2 class="dialog-text">Вставьте дискету, чтобы продолжить</h2>
           <form method="dialog" class="popup-container">
-            <button type="submit" class="popup-button">ок</button>
+            <button type="submit" class="popup-button">
+              <span class="popup-button-text">ок</span>
+
+              </button>
           </form>
-        </opened>
+        </div>
         
       </dialog>
 
