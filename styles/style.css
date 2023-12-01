@@ -17,7 +17,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-font), fantasy;
+  font-family: var(--main-font), sans-serif;
   font-variation-settings: 'wght' var(--font-weight);
   color: var(--accent-color);
   background-size: cover;
@@ -153,7 +153,7 @@ a {
 }
 
 .card-title {
-  font-family: var(--main-font), fantasy;
+  font-family: var(--main-font), sans-serif;
   font-size: 18px;
   color: var(--accent-color);
   font-variation-settings: "wdth" var(--font-weight-title);
@@ -171,7 +171,7 @@ a {
 }
 
 .paragraph {
-  font-family: var(--main-font), fantasy;
+  font-family: var(--main-font),  sans-serif;
   font-size: 18px;
   color: var(--accent-color);
   font-variation-settings: "wdth" var(--font-weight);
@@ -506,6 +506,10 @@ dialog::backdrop {
 .popup-button:hover::before {
   transform: scaleX(1);
   outline: none;
+}
+
+.popup-button:hover {
+  cursor: pointer;
 }
 
 .zero-sprint-img {
