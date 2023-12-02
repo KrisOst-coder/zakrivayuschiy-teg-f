@@ -51,7 +51,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .page {
+    :root {
         --background-color: #000;
         --accent-color: #00CC14;
         --accent-font-weight: 400px;
