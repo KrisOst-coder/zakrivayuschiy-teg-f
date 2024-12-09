@@ -1,5 +1,6 @@
-# zakrivayuschiy-teg-f
-Проект "Закрывающий тег"
+# Проект "Закрывающий тег"
 
 
-https://github.com/KrisOst-coder/zakrivayuschiy-teg-f
+<img width="665" alt="Снимок экрана 2024-12-09 в 14 53 05" src="https://github.com/user-attachments/assets/ff86ec56-8213-432d-ab5c-4f81fe144168">
+
+### Работала над адаптивной версткой, темной и светлой формой, возможностью поставить публикациям лайк.
